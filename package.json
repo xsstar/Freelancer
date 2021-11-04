@@ -1,0 +1,36 @@
+{
+  "name": "freelancer",
+  "version": "1.0.0",
+  "description": "\"# Freelancer\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsstar/Freelancer.git"
+  },
+  "author": "Havva Polatli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xsstar/Freelancer/issues"
+  },
+  "homepage": "https://github.com/xsstar/Freelancer#readme",
+  "devDependencies": {
+    "prettier": "2.4.1",
+    "supervisor": "^0.12.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.13.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.7",
+    "nodemailer": "^6.7.0"
+  }
+}
